@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<empresa>
+    <!--Nombre provicional por los momentos-->
+    <nombre>MakingStyle</nombre>
+
+    <productos>
+        <producto codigo="100">
+            <nombre>Alfombra</nombre>
+            <precio moneda="EUR">25.45</precio>
+            <stock>50</stock>
+        </producto>
+
+        <producto codigo="101">
+            <nombre>Cuadro</nombre>
+            <precio moneda="EUR">15.99</precio>
+            <stock>200</stock>
+        </producto>
+
+        <producto codigo="102">
+            <nombre>Plato</nombre>
+            <precio moneda="EUR">20.99</precio>
+            <stock>200</stock>
+        </producto>
+
+        <producto codigo="103">
+            <nombre>Esculturas</nombre>
+            <precio moneda="EUR">70.00</precio>
+            <stock>25</stock>
+        </producto>
+
+        <producto codigo="105">
+            <nombre>Espejo</nombre>
+            <precio moneda="EUR">20.45</precio>
+            <stock>150</stock>
+        </producto>
+    </productos>
+
+    <clientes>
+        <cliente codigo="MA01">
+            <nombre>Marta</nombre>
+            <telefono>111-111-111</telefono>
+        </cliente>
+
+        <cliente codigo="JE02">
+            <nombre>Jennifer</nombre>
+            <telefono>222-222-222</telefono>
+        </cliente>
+
+        <cliente codigo="JO03">
+            <nombre>José</nombre>
+            <telefono>333-333-333</telefono>
+        </cliente>
+
+        <cliente codigo="RO04">
+            <nombre>Roberto</nombre>
+            <telefono>444-444-444</telefono>
+        </cliente>
+
+        <cliente codigo="LU05">
+            <nombre>Luisa</nombre>
+            <telefono>555-555-555</telefono>
+        </cliente>
+        
+    </clientes>
+
+    <ordenes>
+        <orden codigo="P01">
+            <producto>103</producto>
+            <cliente>LU05</cliente>
+            <fecha>25-03-2026</fecha>
+        </orden>
+    </ordenes>
+</empresa>
