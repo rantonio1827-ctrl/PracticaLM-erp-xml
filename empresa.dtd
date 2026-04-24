@@ -7,7 +7,7 @@
 <!ELEMENT producto (nombre, precio, stock)>
 
 <!ELEMENT precio (#PCDATA)>
-<!ATTLIST precio moneda CDATA #REQURED>
+<!ATTLIST precio moneda CDATA #REQUIRED>
 
 <!ATTLIST producto CDATA #REQUIRED>
 
