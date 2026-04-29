@@ -9,7 +9,7 @@
 <!ELEMENT precio (#PCDATA)>
 <!ATTLIST precio moneda CDATA #REQUIRED>
 
-<!ATTLIST producto CDATA #REQUIRED>
+<!ATTLIST producto codigo CDATA #REQUIRED>
 
 
 <!ELEMENT clientes (cliente+)>
