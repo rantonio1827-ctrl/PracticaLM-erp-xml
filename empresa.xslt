@@ -12,7 +12,7 @@
             <body>
                 <!--  Nombre de la empresa  -->
                 <h1>
-                Empresa:
+                Empresa: DecoArt
                 <xsl:value-of select="empresa/nombre"/>
                 </h1>
                 <!--  TABLA DE PRODUCTOS  -->
