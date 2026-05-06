@@ -5,8 +5,8 @@
 <!DOCTYPE empresa SYSTEM "empresa.dtd">
 
 <empresa>
-    <!--Nombre provicional por los momentos-->
-    <nombre>MakingStyle</nombre>
+    <!--Nombre de la empresa-->
+    <nombre>DecoArt</nombre>
 
     <productos>
         <producto codigo="100">
