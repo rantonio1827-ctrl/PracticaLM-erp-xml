@@ -1,0 +1,26 @@
+<!ELEMENT empresa (nombre, productos, clientes, ordenes)>
+
+
+<!ELEMENT nombre (#PCDATA)>
+
+<!ELEMENT productos (producto+)>
+<!ELEMENT producto (nombre, precio, stock)>
+
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio moneda CDATA #REQUIRED>
+
+<!ATTLIST producto codigo CDATA #REQUIRED>
+
+
+<!ELEMENT clientes (cliente+)>
+<!ELEMENT cliente (nombre, telefono)>
+<!ATTLIST cliente codigo CDATA #REQUIRED>
+
+
+<!ELEMENT ordenes (orden+)>
+<!ELEMENT orden (producto, cliente, fecha)>
+<!ATTLIST orden codigo CDATA #REQUIRED>
+
+<!ELEMENT stock (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
